@@ -13,4 +13,12 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="myButton">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">#2E2F38</item>
+    </style>
+    <style name="mainbg">
+        <item name="background">#F1F2F3</item>
+    </style>
 </resources>

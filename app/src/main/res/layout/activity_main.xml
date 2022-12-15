@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#17171C"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    style="@style/mainbg">
 
 
     <ImageView
@@ -72,7 +72,7 @@
                 android:layout_weight="1"
                 android:text="C"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4E505F" />
 
             <com.google.android.material.button.MaterialButton
@@ -80,7 +80,7 @@
                 android:layout_height="72dp"
                 android:layout_marginHorizontal="16dp"
                 android:layout_weight="1"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4E505F"
                 app:icon="@drawable/plus" />
 
@@ -91,14 +91,14 @@
                 android:layout_weight="1"
                 android:text="%"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4E505F" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="71dp"
                 android:layout_height="72dp"
                 android:layout_weight="1"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4B5EFC"
                 app:icon="@drawable/devide" />
 
@@ -117,8 +117,7 @@
                 android:layout_weight="1"
                 android:text="7"
                 android:textAlignment="center"
-                android:textSize="32dp"
-                app:backgroundTint="#2E2F38" />
+                style="@style/myButton"/>
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
@@ -127,8 +126,7 @@
                 android:layout_weight="1"
                 android:text="8"
                 android:textAlignment="center"
-                android:textSize="32dp"
-                app:backgroundTint="#2E2F38" />
+                style="@style/myButton"/>
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
@@ -137,7 +135,7 @@
                 android:layout_weight="1"
                 android:text="9"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -145,7 +143,7 @@
                 android:layout_height="72dp"
                 android:layout_weight="1"
                 android:text="x"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4B5EFC" />
         </LinearLayout>
 
@@ -161,7 +159,7 @@
                 android:layout_weight="1"
                 android:text="4"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -171,7 +169,7 @@
                 android:layout_weight="1"
                 android:text="5"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -181,7 +179,7 @@
                 android:layout_weight="1"
                 android:text="6"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -189,7 +187,7 @@
                 android:layout_height="72dp"
                 android:layout_weight="1"
                 android:text="-"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4B5EFC" />
         </LinearLayout>
 
@@ -205,7 +203,7 @@
                 android:layout_weight="1"
                 android:text="1"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -215,7 +213,7 @@
                 android:layout_weight="1"
                 android:text="2"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -225,7 +223,7 @@
                 android:layout_weight="1"
                 android:text="3"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -233,7 +231,7 @@
                 android:layout_height="72dp"
                 android:layout_weight="1"
                 android:text="+"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4B5EFC" />
         </LinearLayout>
 
@@ -249,7 +247,7 @@
                 android:layout_weight="1"
                 android:text="."
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -259,7 +257,7 @@
                 android:layout_weight="1"
                 android:text="0"
                 android:textAlignment="center"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38" />
 
             <com.google.android.material.button.MaterialButton
@@ -267,7 +265,7 @@
                 android:layout_height="72dp"
                 android:layout_marginRight="16dp"
                 android:layout_weight="1"
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#2E2F38"
                 app:icon="@drawable/delete" />
 
@@ -276,7 +274,7 @@
                 android:layout_height="72dp"
                 android:layout_weight="1"
                 android:text="="
-                android:textSize="32dp"
+                style="@style/myButton"
                 app:backgroundTint="#4B5EFC" />
         </LinearLayout>
 
